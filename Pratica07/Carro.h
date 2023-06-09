@@ -19,6 +19,7 @@ class Carro : public VeiculoPasseio{
         virtual double valorSeguro(const int);
 };
 
+
 Carro::Carro(){
     this->numPortas = 2;
 }
